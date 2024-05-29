@@ -1,7 +1,4 @@
-Drop table Employees
-Drop table Payments
-Drop table PublicHolidays
-
+--TABLE CREATION AND DATA INSERTION
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
     EmployeeName VARCHAR(100),
@@ -125,9 +122,8 @@ CASE
 END AS Bonus
 FROM Employees e;
 
---Combine All Queries
-drop view HR_Payroll_Dashboard;
-
+--COMBINING ALL QUERIES 
+--note: run this seperately not with the rest of the code 
 CREATE VIEW HR_Payroll_Dashboard AS
 SELECT e.EmployeeID, e.EmployeeName, p.PaymentDate, p.PaymentAmount,
     CASE 
