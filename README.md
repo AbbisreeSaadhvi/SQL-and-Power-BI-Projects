@@ -15,3 +15,13 @@ Contains information about payments made to employees, including payment IDs, em
 
 Additionally, a PublicHolidays table is used to flag travel payments made during public holidays.
 
+**PowerBI Dashboard:**
+
+The PowerBI dashboard uses the above SQL queries to visualize and analyze the HR and payroll data. The key metrics and insights provided by the dashboard include:
+
+1. Missing Payments: Identifies employees who have not received payments.
+2. Duplicate Payments: Identifies duplicate payments made to employees.
+3. Payments After Termination: Identifies payments made to employees after their termination date.
+4. Travel Payments During Public Holidays: Flags travel payments made during public holidays.
+5. Bonus Calculation: Calculates bonuses based on employee performance scores.
+
